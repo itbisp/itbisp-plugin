@@ -1,0 +1,21 @@
+{
+  "name": "itbisp",
+  "version": "0.3.0",
+  "description": "Quanto vale um imóvel em São Paulo: o preço pago nas vendas registradas no ITBI por prédio, rua e bairro, e os imóveis à venda de 330+ imobiliárias. Grátis, sem login.",
+  "author": {
+    "name": "ITBI SP",
+    "email": "bruno@pqgventures.com",
+    "url": "https://itbisp.com"
+  },
+  "homepage": "https://itbisp.com/agentes",
+  "repository": "https://github.com/itbisp/itbisp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "imóveis",
+    "real-estate",
+    "são paulo",
+    "itbi",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

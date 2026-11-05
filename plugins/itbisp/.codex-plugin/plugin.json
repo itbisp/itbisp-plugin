@@ -1,0 +1,33 @@
+{
+  "name": "itbisp",
+  "version": "0.3.0",
+  "description": "Quanto vale um imóvel em São Paulo: o preço pago nas vendas registradas no ITBI por prédio, rua e bairro, e os imóveis à venda de 330+ imobiliárias.",
+  "author": {
+    "name": "ITBI SP",
+    "url": "https://itbisp.com"
+  },
+  "homepage": "https://itbisp.com/agentes",
+  "repository": "https://github.com/itbisp/itbisp-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ITBI SP",
+    "shortDescription": "Preço real de imóveis em São Paulo",
+    "longDescription": "O preço pago de verdade em cada prédio, rua e bairro de São Paulo, pelas vendas registradas no ITBI da Prefeitura (530 mil vendas desde 2019), com estimativa de quanto vale um imóvel no endereço. Também busca imóveis à venda em anúncios de 330+ imobiliárias, cada imóvel uma vez só. Grátis, sem login.",
+    "developerName": "ITBI SP",
+    "category": "Research",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://itbisp.com/agentes",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "logoDark": "./assets/icon.svg",
+    "defaultPrompt": [
+      "@ITBI SP quanto vale um apê de 80 m² na Rua Fradique Coutinho, 587?",
+      "@ITBI SP quais os bairros mais caros de São Paulo?",
+      "@ITBI SP 3 quartos perto do metrô em Pinheiros até 1,8 mi"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "itbisp",
+  "owner": {
+    "name": "ITBI SP",
+    "email": "bruno@pqgventures.com",
+    "url": "https://itbisp.com"
+  },
+  "metadata": {
+    "description": "Preço real de imóveis em São Paulo (vendas do ITBI) e imóveis à venda, no Claude Code.",
+    "version": "0.3.0"
+  },
+  "plugins": [
+    {
+      "name": "itbisp",
+      "source": "./plugins/itbisp",
+      "description": "Quanto vale um imóvel em São Paulo: vendas registradas no ITBI por prédio, rua e bairro, e imóveis à venda de 330+ imobiliárias.",
+      "version": "0.3.0",
+      "category": "data",
+      "keywords": [
+        "imóveis",
+        "real-estate",
+        "são paulo",
+        "itbi",
+        "brasil",
+        "mcp"
+      ],
+      "homepage": "https://itbisp.com/agentes"
+    }
+  ]
+}

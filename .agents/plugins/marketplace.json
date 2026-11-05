@@ -1,0 +1,20 @@
+{
+  "name": "itbisp",
+  "interface": {
+    "displayName": "ITBI SP"
+  },
+  "plugins": [
+    {
+      "name": "itbisp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/itbisp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    }
+  ]
+}
