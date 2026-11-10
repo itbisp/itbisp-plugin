@@ -21,7 +21,7 @@ codex plugin add itbisp@itbisp
 ```
 
 ChatGPT: Plugins → + → Add custom MCP server → `https://itbisp.com/mcp`, sem autenticação.
-Claude (web e desktop): Configurações → Conectores → Adicionar conector personalizado → `https://itbisp.com/mcp`.
+Claude (web e desktop): abra [Adicionar conector personalizado](https://claude.ai/new?modal=add-custom-connector#customize/connectors) e cole `https://itbisp.com/mcp`.
 Outros clientes: `{"mcpServers": {"itbisp": {"url": "https://itbisp.com/mcp"}}}`
 
 ## Ferramentas
